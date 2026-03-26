@@ -22,18 +22,18 @@ export const platforms: PlatformConfig[] = [
 ]
 
 export const accountMetrics: AccountMetric[] = [
-  { platform: 'instagram', followers: 12840, views: 98200, growth: 8.4, connected: true },
-  { platform: 'youtube', followers: 18210, views: 143200, growth: 5.1, connected: true },
-  { platform: 'tiktok', followers: 10150, views: 121400, growth: 11.3, connected: false },
+  { platform: 'instagram', followers: 140, views: 98200, growth: 8.4, connected: true },
+  { platform: 'youtube', followers: 100, views: 143200, growth: 5.1, connected: true },
+  { platform: 'tiktok', followers: 120, views: 121400, growth: 11.3, connected: false },
 ]
 
 export const followerSeries: SeriesPoint[] = [
-  { date: '2025-01-01', instagram: 11200, youtube: 16800, tiktok: 9000 },
-  { date: '2025-02-01', instagram: 11640, youtube: 17230, tiktok: 9400 },
-  { date: '2025-03-01', instagram: 12010, youtube: 17600, tiktok: 9750 },
-  { date: '2025-04-01', instagram: 12380, youtube: 17890, tiktok: 10020 },
-  { date: '2025-05-01', instagram: 12640, youtube: 18050, tiktok: 10240 },
-  { date: '2025-06-01', instagram: 12840, youtube: 18210, tiktok: 10150 },
+  { date: '2025-01-01', instagram: 110, youtube: 80, tiktok: 95 },
+  { date: '2025-02-01', instagram: 118, youtube: 84, tiktok: 100 },
+  { date: '2025-03-01', instagram: 124, youtube: 89, tiktok: 106 },
+  { date: '2025-04-01', instagram: 130, youtube: 93, tiktok: 111 },
+  { date: '2025-05-01', instagram: 136, youtube: 97, tiktok: 116 },
+  { date: '2025-06-01', instagram: 140, youtube: 100, tiktok: 120 },
 ]
 
 export const viewsSeries: SeriesPoint[] = [
